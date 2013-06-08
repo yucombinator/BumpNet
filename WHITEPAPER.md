@@ -12,3 +12,5 @@ Means of communication include NFC("bumping"), Bluetooth (whether this is do-abl
 
 Messages should be stored either as plaintext (for public messages), or as cryptext (GPG-style?) that is only reabable to 
 intended receipient.
+
+A focus on anonymity is important for this project, so no personally identifiable information should be left within messages.
