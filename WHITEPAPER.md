@@ -1,7 +1,7 @@
 BumpNet White Paper
 =======
 What should the app do?
-=======
+=====
 On successful connection, the app transfer all current messages contained within the
 database to the receipient phone. Then it should merge its database of messages with the database it has received from
 the other phone.
