@@ -9,11 +9,9 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
-import com.bumpnet.R.id;
 import com.bumpnet.R.layout;
 import com.googlecode.androidannotations.api.SdkVersionHelper;
 
@@ -33,7 +31,6 @@ public final class MainActivity_
     }
 
     private void afterSetContentView_() {
-        pager = ((ViewPager) findViewById(id.pager));
         afterViews();
     }
 
