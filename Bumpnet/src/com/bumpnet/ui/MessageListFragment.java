@@ -140,19 +140,8 @@ public class MessageListFragment extends Fragment {
     }
 
 	private void initializeDummyData() {
-		MessageItem item = new MessageItem();
+		MessageItem item = MessageItem.getDummyMessage();
 		item.image = getResources().getDrawable(R.drawable.ic_launcher);
-		item.title = "Lorem ipsum dolor sit amet";
-		item.message = "Curabitur eros lectus, feugiat ac tempor dapibus, pellentesque id sapien. " +
-				"Fusce blandit pellentesque enim ac adipiscing. " +
-				"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. " +
-				"Vestibulum dignissim nulla at magna pulvinar sodales. Nam ullamcorper cursus lacinia. " +
-				"Duis scelerisque, lacus ac pretium pretium, nisi lorem vulputate metus, nec auctor justo turpis non lorem. " +
-				"Vestibulum posuere, turpis sit amet vehicula consequat, nisl dui lobortis dui, eget suscipit metus lectus quis arcu. " +
-				"Proin auctor eu ligula sed pharetra. Integer in magna eget nisi scelerisque fermentum. Nunc in dui id elit posuere ornare. " +
-				"Ut felis metus, lobortis nec tincidunt ornare, condimentum non ipsum. Aenean luctus urna quis urna rutrum, nec blandit massa varius. " +
-				"Sed porta eu ligula vitae tempor. Donec tristique, risus sit amet semper euismod, velit eros iaculis arcu, non pharetra nisl massa nec turpis." +
-				" Vestibulum vestibulum sem sit amet ante vulputate viverra.";
 	
 		data.add(item);
 		data.add(item);
