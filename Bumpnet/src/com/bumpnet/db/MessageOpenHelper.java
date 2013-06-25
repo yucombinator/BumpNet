@@ -15,6 +15,7 @@ public class MessageOpenHelper extends SQLiteOpenHelper {
 	public static final String MESSAGES_TABLE_NAME = "messages";
 	private static final String CREATE_MESSAGE_DATABASE = "CREATE TABLE " + MESSAGES_TABLE_NAME + "(" +
 			"id INTEGER PRIMARY KEY, " +
+			"message_title TEXT, " +
 			"message_text TEXT, " +
 			"parent_id INTEGER" + ");";
 	
